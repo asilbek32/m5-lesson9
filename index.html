@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container max-w-[1550px] mx-auto ">
+        <div id="sidebar" class="absolute none bg-[#1A3E3E] p-[16px] w-full h-[100vh] hidden">
+            <div class="flex justify-end cursor-pointer">
+                <img src="./assets/close_icon.png" alt="" class="mb-[10px]" id="cloce">
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex gap-[8px] cursor-pointer">
+                    <img src="./assets/Frame.svg" alt="">
+                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Про гида</p>
+                </div>
+                <div class="flex gap-[8px] cursor-pointer">
+                    <img src="./assets/Frame.svg" alt="">
+                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Программа тура</p>
+                </div>
+                <div class="flex gap-[8px] cursor-pointer">
+                    <img src="./assets/Frame.svg" alt="">
+                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Стоимость</p>
+                </div>
+                <div class="flex gap-[8px] container">
+                    <img src="./assets/Frame.svg" alt="">
+                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Блог</p>
+                </div>
+                <div class="flex gap-[8px] cursor-pointer">
+                    <img src="./assets/Frame.svg" alt="">
+                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Контакты</p>
+                </div>
+            </div>
+        </div>
+        <div class="px-[16px] lg:px-[80px] xl:px-[130px]  bg-[url(./assets/hero.jpg)] bg-no-repet bg-cover bg-center">
+            <div class="flex justify-between items-center pt-[20px] lg:hidden mb-[234px]">
+                <img src="./assets/logo.svg" alt="">
+                <img src="./assets/heroicons.svg" alt="" id="menu" class="cursor-pointer">
+            </div>
+            <nav class="hidden lg:flex justify-between items-center  pt-[16px] mb-[463px]">
+                <img src="./assets/logo.svg" alt="">
+                <div class="flex gap-[49px] items-center">
+                    <ul class="flex gap-[24px] items-center">
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                        <li><a href="#" class="text-[18px] text-[#FDFDFD] font-semibold">Главная</a></li>
+                    </ul>
+                    <button class="w-[157px] h-[44px] bg-[#1A3E3E] text-[#FDFDFD] rounded-[4px]">Консультация</button>
+                </div>
+            </nav>
+
+            <main>
+                <h1
+                    class="text-[#FDFDFD] lg:text-[43px] xl:text-[50px] max-w-[345px] lg:max-w-[950px] xl:max-w-[1000px] text-[28px] font-bold mb-[32px] lg:mb-[41px]">
+                    Насладись прогулкой в горы
+                    с командой единомышленников</h1>
+                <div class="backdrop-blur-custom bg-white/30 p-[43px] rounded-lg mb-[81px] lg:flex justify-between  hidden">
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
+                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <img src=" ./assets/ep_arrow-down.svg" alt="">
+                        </div>
+                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                    </div>
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
+                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <img src=" ./assets/ep_arrow-down.svg" alt="">
+                        </div>
+                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                    </div>
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
+                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <img src=" ./assets/ep_arrow-down.svg" alt="">
+                        </div>
+                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                    </div>
+
+                    <button class=" bg-[#FDFDFD] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] ">Найти
+                        программу</button>
+                </div>
+                <button class=" bg-[#FDFDFD] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] lg:hidden">Найти
+                    программу</button>
+            </main>
+        </div>
+    </div>
+
+    <script src="./app.js">
+
+    </script>
+</body>
+
+</html>
