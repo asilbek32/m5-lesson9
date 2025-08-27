@@ -12,34 +12,35 @@
 <body>
 
     <div class="container max-w-[1550px] mx-auto ">
-        <div id="sidebar" class="absolute none bg-[#1A3E3E] p-[16px] w-full h-[100vh] hidden">
+        <div id="sidebar" class="absolute none bg-[#1A3E3E] p-[16px] w-full h-[50vh] hidden">
             <div class="flex justify-end cursor-pointer">
                 <img src="./assets/close_icon.png" alt="" class="mb-[10px]" id="cloce">
             </div>
             <div class="flex flex-col gap-4">
                 <div class="flex gap-[8px] cursor-pointer">
                     <img src="./assets/Frame.svg" alt="">
-                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Про гида</p>
+                    <p class="text-[#FDFDFD] hover:text-[var(--color-F2BE22)] text-[14px]">Про гида</p>
                 </div>
                 <div class="flex gap-[8px] cursor-pointer">
                     <img src="./assets/Frame.svg" alt="">
-                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Программа тура</p>
+                    <p class="text-[#FDFDFD] hover:text-[var(--color-F2BE22)] text-[14px]">Программа тура</p>
                 </div>
                 <div class="flex gap-[8px] cursor-pointer">
                     <img src="./assets/Frame.svg" alt="">
-                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Стоимость</p>
+                    <p class="text-[#FDFDFD] hover:text-[var(--color-F2BE22)] text-[14px]">Стоимость</p>
                 </div>
                 <div class="flex gap-[8px] container">
                     <img src="./assets/Frame.svg" alt="">
-                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Блог</p>
+                    <p class="text-[#FDFDFD] hover:text-[var(--color-F2BE22)] text-[14px]">Блог</p>
                 </div>
                 <div class="flex gap-[8px] cursor-pointer">
                     <img src="./assets/Frame.svg" alt="">
-                    <p class="text-[#FDFDFD] hover:text-[#F2BE22] text-[14px]">Контакты</p>
+                    <p class="text-[#FDFDFD] hover:text-[var(--color-F2BE22)] text-[14px]">Контакты</p>
                 </div>
             </div>
         </div>
-        <div class="px-[16px] lg:px-[80px] xl:px-[130px]  bg-[url(./assets/hero.jpg)] bg-no-repet bg-cover bg-center">
+        <div
+            class="px-[16px] lg:px-[80px] xl:px-[130px]  bg-[url(./assets/hero.jpg)] bg-no-repet bg-cover bg-center mb-[50px] lg:mb-[80px] xl:mb-[100px]">
             <div class="flex justify-between items-center pt-[20px] lg:hidden mb-[234px]">
                 <img src="./assets/logo.svg" alt="">
                 <img src="./assets/heroicons.svg" alt="" id="menu" class="cursor-pointer">
@@ -64,40 +65,179 @@
                     class="text-[#FDFDFD] lg:text-[43px] xl:text-[50px] max-w-[345px] lg:max-w-[950px] xl:max-w-[1000px] text-[28px] font-bold mb-[32px] lg:mb-[41px]">
                     Насладись прогулкой в горы
                     с командой единомышленников</h1>
-                <div class="backdrop-blur-custom bg-white/30 p-[43px] rounded-lg mb-[81px] lg:flex justify-between  hidden">
+                <div
+                    class="backdrop-blur-custom bg-white/30 p-[43px] rounded-lg mb-[81px] lg:flex justify-between  hidden">
                     <div class="flex flex-col gap-[8px]">
                         <div
                             class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
-                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <p class=" text-[var(--color-FDFDFD)] text-base font-bold"> Локация для тура</p>
                             <img src=" ./assets/ep_arrow-down.svg" alt="">
                         </div>
-                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                        <p class="text-[var(--color-FDFDFD)] text-[14px] font-normal">выберите из списка</p>
                     </div>
                     <div class="flex flex-col gap-[8px]">
                         <div
                             class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
-                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <p class=" text-[var(--color-FDFDFD)] text-base font-bold"> Локация для тура</p>
                             <img src=" ./assets/ep_arrow-down.svg" alt="">
                         </div>
-                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                        <p class="text-[var(--color-FDFDFD)] text-[14px] font-normal">выберите из списка</p>
                     </div>
                     <div class="flex flex-col gap-[8px]">
                         <div
                             class="flex gap-[8px] px-[16px] py-[14px] border-1 border-solid border-[#E1E3E4] rounded-lg">
-                            <p class=" text-[#FDFDFD] text-base font-bold"> Локация для тура</p>
+                            <p class=" text-[var(--color-FDFDFD)] text-base font-bold"> Локация для тура</p>
                             <img src=" ./assets/ep_arrow-down.svg" alt="">
                         </div>
-                        <p class="text-[#FDFDFD] text-[14px] font-normal">выберите из списка</p>
+                        <p class="text-[var(--color-FDFDFD)] text-[14px] font-normal">выберите из списка</p>
                     </div>
 
-                    <button class=" bg-[#FDFDFD] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] ">Найти
+                    <button class=" bg-[var(--color-FDFDFD)] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] ">Найти
                         программу</button>
                 </div>
-                <button class=" bg-[#FDFDFD] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] lg:hidden">Найти
+                <button
+                    class=" bg-[var(--color-FDFDFD)] w-[213px] h-[52px] inline rounded-[4px] mb-[50px] lg:hidden">Найти
                     программу</button>
             </main>
         </div>
+        <section class="px-[16px] lg:px-[80px] xl:px-[130px] md:flex lg:flex-row-reverse items-center justify-between ">
+
+
+
+
+            <div class="mb-[40px] lg:max-w-[580px]">
+                <p class="text-base xl:text-[24px] text-[var(--color-F2BE22)] mb-[8px]">о нашем походе</p>
+                <h2 class="font-extrabold text-[var(--color-18121E)] text-[24px] xl:text-[32px]  mb-[24px]">Исследуйте
+                    все горные
+                    массивы мира вместе с нами</h2>
+                <p class="text-[14px] xl:text-[18px] text-[var(--color-18121E)] font-normal md:w-[500px] mb-[24px]">Его
+                    корни уходят в один фрагмент
+                    классической латыни 45 года н.э., то есть более двух тысячелетий
+                    назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из
+                    самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской
+                    литературе.</p>
+
+                <div class="flex justify-center md:justify-start">
+                    <button
+                        class="text-[var(--color-FDFDFD)] bg-[var(--color-1A3E3E)] rounded-sm w-[176px] h-[44px]">Программа
+                        тура</button>
+                </div>
+            </div>
+            <div class=" lg:w-[480px] relative lg:h-[526px] mb-[40px]">
+                <img src="./assets/nature.jpg" alt=""
+                    class="rounded-lg w-[350px] h-[400px] object-cover lg:absolute lg:top-[80px] xl:top-[100px] lg:left-[50px] xl:left-[100px] z-10">
+                <img src="./assets/mountain.jpg" alt=""
+                    class="rounded-lg w-[350px] h-[400px] object-cover lg:absolute top-0 left-0 hidden lg:inline z-0">
+            </div>
+        </section>
+
+        <section class="bg-[var(--color-F3F5F4)] px-[16px] lg:px-[80px] xl:px-[130px] py-[50px] flex justify-between">
+
+            <div class="lg:w-[580px]">
+                <p class="text-[16px] lg:text-[24px] text-[var(--color-F2BE22)] mb-[8px]">наше предложение</p>
+                <h2
+                    class="text-[24px] font-extrabold lg:text-[32px] text-[var(--color-18121E)]font-extrabold mb-[32px]">
+                    Лучшие
+                    программы для тебя
+                </h2>
+                <p class="text-[16px] text-[var(--color-18121E)] mb-[32px]">Его корни уходят в один фрагмент
+                    классической
+                    латыни 45 года н.э., то есть более двух тысячелетий назад.
+                    Ричард МакКлинток, профессор латыни из колледжа.</p>
+
+                <div class="flex flex-col gap-[24px] mb-[32px]">
+                    <div class="flex gap-[16px] items-center ">
+                        <img src="./assets/Group 16.png" alt="" class="self-start lg:self-center">
+                        <div class="max-w-[292px] md:max-w-full">
+                            <h4 class="text-[18px] text-[var(--color-18121E)] font-bold
+                         mb-[4px]">Опытный гид</h4>
+                            <p class="text-[14px] text-[#000000]">Для современного мира базовый вектор развития
+                                предполагает
+                                независимые способы реализации
+                                соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-[16px] items-center ">
+                        <img src="./assets/Group 16.png" alt="" class="self-start lg:self-center">
+                        <div class="max-w-[292px] md:max-w-full">
+                            <h4 class="text-[18px] text-[var(--color-18121E)] font-bold
+                         mb-[4px]">Опытный гид</h4>
+                            <p class="text-[14px] text-[#000000]">Для современного мира базовый вектор развития
+                                предполагает
+                                независимые способы реализации
+                                соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-[16px] items-center ">
+                        <img src="./assets/Group 16.png" alt="" class="self-start lg:self-center">
+                        <div class="max-w-[292px] md:max-w-full">
+                            <h4 class="text-[18px] text-[var(--color-18121E)] font-bold
+                         mb-[4px]">Опытный гид</h4>
+                            <p class="text-[14px] text-[#000000]">Для современного мира базовый вектор развития
+                                предполагает
+                                независимые способы реализации
+                                соответствующих условий активизации.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center lg:justify-start"><button
+                        class="text-[var(--color-FDFDFD)] bg-[var(--color-1A3E3E)] rounded-sm w-[176px] h-[44px]">Программа
+                        тура</button></div>
+            </div>
+            <div class="hidden lg:grid grid-cols-2 gap-[10px]">
+                <img src="./assets/hand.jpg" alt="" class="w-[250px] h-[250px] rounded-tr-[50px] rounded-bl-[50px]">
+                <img src="./assets/hand.jpg" alt="" class="w-[250px] h-[250px] rounded-tl-[50px] rounded-br-[50px]">
+                <img src="./assets/hand.jpg" alt="" class="w-[250px] h-[250px] rounded-tr-[50px] rounded-bl-[50px]">
+                <img src="./assets/hand.jpg" alt="" class="w-[250px] h-[250px] rounded-tl-[50px] rounded-br-[50px]">
+            </div>
+        </section>
+
+        <section class="px-[16px] lg:px-[80px] xl:px-[130px] py-[50px]">
+            <div class="flex flex-col items-center">
+                <p class="text-[16px] lg:text-[24px] text-[var(--color-F2BE22)]">по версии отдыхающих</p>
+                <h2 class="mb-[24px] lg:text-[32px] font-extrabold text-[24px] text-[var(--color-18121E)]">Популярные
+                    направления</h2>
+            </div>
+            <div class="ower flex justify-center gap-[20px] mb-[32px] lg:mb-[50px]">
+                <div class="bg-[url(./assets/rive.jpg)] bg-center bg-cover w-[258px] lg:w-[380px] h-[400px] lg:h-[500px] rounded-3xl  flex items-end transform transition duration-300 
+                    hover:-translate-y-[10px]">
+                    <div
+                        class="flex gap-[24px] rounded-b-3xl px-[24px] traform justify-between py-[24px] w-full backdrop-blur-sm">
+                        <p class="text-[12px] text-[var(--color-FDFDFD)]">Озеро возле гор</p>
+                        <span class="text-[12px] text-[var(--color-FDFDFD)]">480 $</span>
+                    </div>
+                </div>
+                <div class="bg-[url(./assets/rive.jpg)] bg-center bg-cover w-[258px] lg:w-[380px] h-[400px] lg:h-[500px] rounded-3xl  flex items-end transform transition duration-300 
+                    hover:-translate-y-[10px]">
+                    <div
+                        class="flex gap-[24px] rounded-b-3xl px-[24px] justify-between py-[24px] w-full backdrop-blur-sm">
+                        <p class="text-[12px] text-[var(--color-FDFDFD)]">Озеро возле гор</p>
+                        <span class="text-[12px] text-[var(--color-FDFDFD)]">480 $</span>
+                    </div>
+                </div>
+                <div class="bg-[url(./assets/rive.jpg)] bg-center bg-cover w-[258px] lg:w-[380px] h-[400px] lg:h-[500px] rounded-3xl  flex items-end transform transition duration-300 
+                    hover:-translate-y-[10px]">
+                    <div
+                        class="flex gap-[24px] rounded-b-3xl px-[24px] justify-between py-[24px] w-full backdrop-blur-sm">
+                        <p class="text-[12px] text-[var(--color-FDFDFD)]">Озеро возле гор</p>
+                        <span class="text-[12px] text-[var(--color-FDFDFD)]">480 $</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center "><button
+                    class="text-[var(--color-FDFDFD)] bg-[var(--color-1A3E3E)] rounded-sm w-[176px] h-[44px]">Программа
+                    тура</button></div>
+        </section>
+
+        <section class="px-[16px] lg:px-[80px] xl:px-[130px] py-[50px] bg-[var(--color-F3F5F4)]">
+            <div class="flex flex-col items-center">
+                <p class="text-[16px] lg:text-[24px] text-[var(--color-F2BE22)]">делимся впечатлениями</p>
+                <h2 class="mb-[24px] lg:text-[32px] text-[24px] font-extrabold text-[var(--color-18121E)]">Блог о
+                    путешествиях</h2>
+            </div>
+        </section>
     </div>
+
 
     <script src="./app.js">
 
