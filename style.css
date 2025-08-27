@@ -8,17 +8,19 @@
   transition: all 0.7s ease;
 }
 
-button{
+button {
   cursor: pointer;
 }
-:root{
-  --color-FDFDFD:#FDFDFD;
-  --color-1A3E3E:#1A3E3E;
-  --color-18121E:#18121E;
-  --color-F2BE22:#F2BE22;
-  --color-F3F5F4:#F3F5F4;
+:root {
+  --color-FDFDFD: #fdfdfd;
+  --color-1A3E3E: #1a3e3e;
+  --color-18121E: #18121e;
+  --color-F2BE22: #f2be22;
+  --color-F3F5F4: #f3f5f4;
 }
 
-.ower{
+.ower {
   overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
